@@ -1,10 +1,10 @@
 const countdown = () => {
-  const targetDate = new Date("December 31, 2025 23:59:59").getTime();
+  const targetDate = new Date("June 9, 2025 21:59:59").getTime();
   const now = new Date().getTime();
   const distance = targetDate - now;
 
   if (distance < 0) {
-    document.getElementById("countdown").innerHTML = "Countdown Finished!";
+    document.getElementById("countdown").innerHTML = "Gülo Geldi!!!";
     return;
   }
 
