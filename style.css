@@ -1,0 +1,28 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #111;
+  color: #fff;
+  text-align: center;
+  padding-top: 100px;
+}
+
+.container {
+  max-width: 600px;
+  margin: auto;
+}
+
+#countdown {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 40px;
+}
+
+#countdown div {
+  font-size: 2em;
+}
+
+#countdown small {
+  display: block;
+  font-size: 0.5em;
+  margin-top: 5px;
+}
